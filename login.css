@@ -1,0 +1,111 @@
+
+.container {
+    position: relative;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    bottom:8px;
+    right:-300px;
+    bottom: 0px;
+
+}
+  .top-left {
+    position: absolute;
+    bottom: 621px;   
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    
+  }
+
+  body,html{
+    margin: 0;
+    background-color: #f8a74b;
+  }
+
+  *{
+      font-family: 'Mulish';
+  }
+  
+
+  h1{
+    position:absolute;
+    margin-top: 70px;
+    font-size: 50px;
+  }
+  
+  .login-box{
+    left:103px;
+    bottom:525px;
+    position:absolute;
+    height: 4%;
+    width: 80%;
+    max-width: 320px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  input{
+  
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #adadad;
+    margin: 10px 0px;
+  }
+  
+  .btn{
+ 
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom right, #fab84f, #fec64b);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  
+  a{
+  
+    text-decoration: none;
+    color: #f8a74b;
+  }
+
+  .topnav {
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px;
+    overflow: hidden;
+    background-color: #fe5e1f;
+    height: 150px;
+  }
+  
+  .topnav li {float: left;}
+  
+  .topnav li a {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 20px 10px;
+    text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 30px;
+  }
+  
+  .topnav-text{
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav 
+  .topnav li {float: none;}
+}
